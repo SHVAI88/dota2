@@ -1,0 +1,87 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --accent-color: #0077cc;
+  --card-color:#ffffff;
+  --cm-color:#ffffff;
+}
+#card{
+    background-color:var(--card-color);
+    position:absolute;
+    left:800px;
+    min-width:1000px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, color 0.3s;
+}
+#CM, #PH, #SK, #SF, #VR{
+    max-width:800px;
+    background-color:var(--cm-color);
+    position:absolute;
+    margin-left: 100px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, color 0.3s;
+}
+.img{
+    position:relative;
+    left:1010px;
+}
+.txt{
+    font-family:sans-serif;
+    padding:20px;
+    color:var(--text-color);
+    transition: background 0.3s, color 0.3s;
+}
+h1{
+    font-family:sans-serif;
+    position:relative;
+    left:150px;
+    color:var(--text-color);
+    transition: background 0.3s, color 0.3s;
+}
+#Top_5, #Top_4, #Top_3{
+    font-family:sans-serif;
+    position:relative;
+    color:var(--text-color);
+    transition: background 0.3s, color 0.3s;
+}
+#CM_background{
+    min-height:90px
+}
+#Ph_img{
+    position:relative;
+    left:200px;
+}
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.3s, color 0.3s;
+  background-image:url('bckice.jfif')
+}
+
+button#theme-toggle {
+  background: white;
+  color: var(--accent-color);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color:var(--bg-color);
+  transition: background 0.3s, color 0.3s;
+  position:fixed;
+}
+.dark-theme {
+  --bg-color: #1e1e1e;
+  --text-color: #dddddd;
+  --accent-color: #00bfff;
+  --card-color:#292929;
+  --cm-color:#525252;
+}
+.wiki{
+    color:var(--text-color);
+}
